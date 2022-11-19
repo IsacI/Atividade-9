@@ -1,0 +1,32 @@
+body,
+html {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+  background-color: red;
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+    border-radius: 10px;
+    color: white;
+  height: 75px;
+  width: 375px;
+  margin: 5px;
+  background-color: black;
+  font-size: 35px;
+
+}
